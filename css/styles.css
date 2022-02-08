@@ -1,10 +1,19 @@
-a {
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* a {
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
-}
-body {
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
-}
+} */
