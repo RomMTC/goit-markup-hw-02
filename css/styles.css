@@ -28,7 +28,7 @@ body {
 .logo-secondary {
   color: #000000;
 }
-/* Site navigation */
+/*Header Site navigation */
 .list {
   list-style: none;
 }
@@ -45,7 +45,29 @@ body {
   color: var(--accent-color); /* Цвет ссылки при наведении на нее курсора мыши */
   /* text-decoration: underline; /* Добавляем подчеркивание */ */
 }
-
+.email {
+  color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.mobile {
+  color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.email:hover,
+.email:focus,
+.mobile:hover,
+.mobile:focus {
+  color: var(--accent-color); /* Цвет ссылки при наведении на нее курсора мыши */
+  /* text-decoration: underline; /* Добавляем подчеркивание */ */
+}
 /* a {
   text-decoration: none;
 }
