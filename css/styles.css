@@ -45,6 +45,7 @@ body {
   color: var(--accent-color); /* Цвет ссылки при наведении на нее курсора мыши */
   /* text-decoration: underline; /* Добавляем подчеркивание */ */
 }
+/* Header connection */
 .email {
   color: var(--primary-text-color);
 font-weight: 500;
@@ -65,9 +66,21 @@ letter-spacing: 0.02em;
 .email:focus,
 .mobile:hover,
 .mobile:focus {
-  color: var(--accent-color); /* Цвет ссылки при наведении на нее курсора мыши */
-  /* text-decoration: underline; /* Добавляем подчеркивание */ */
+  color: var(--accent-color);
 }
+
+  /* text-decoration: underline; Добавляем подчеркивание */
+
+/* Main Content */
+/* Hero */
+/* Main Content Quality */
+/* main content do it */
+/* main content team */
+
+/* Footer */
+
+
+
 /* a {
   text-decoration: none;
 }
