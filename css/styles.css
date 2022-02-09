@@ -17,7 +17,7 @@ body {
 
 /* Header */
 /* lOGO */
-.logo {
+.logo-primary {
   color: #2196f3;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -25,7 +25,7 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
-.logo > .color {
+.logo-secondary {
   color: #000000;
 }
 /* Site navigation */
