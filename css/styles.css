@@ -17,15 +17,14 @@ body {
 
 /* Header */
 /* lOGO */
-.logo-primary {
+.logo {
   color: #2196f3;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  text-decoration: none;
 }
-.logo-secondary {
+.logo-primary {
   color: #000000;
 }
 /*Header Site navigation */
@@ -33,21 +32,23 @@ body {
   list-style: none;
 }
 .link {
+  text-decoration: none;
+}
+.nav-link {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
-.link:hover,
-.link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color); /* Цвет ссылки при наведении на нее курсора мыши */
   /* text-decoration: underline; */ /* Добавляем подчеркивание */
 }
 /* Header connection */
-.email,
-.mobile {
+.header-mail,
+.header-contact {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -55,26 +56,41 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.email:hover,
-.email:focus,
-.mobile:hover,
-.mobile:focus {
+.header-mail:hover,
+.header-mail:focus,
+.header-contact:hover,
+.header-contact:focus {
   color: var(--accent-color);
 }
 
 /* text-decoration: underline; Добавляем подчеркивание */
 
 /* Main Content */
-/* Hero */
-/* Main Content Quality */
-/* main content do it */
-/* main content team */
+/* Main Hero */
+/* Main Quality */
+/* Main Work */
+/* Main Team */
 
 /* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.logo-secondary {
+  color: #ffffff;
+}
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+.footer-email,
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
 
 /* a {
-  text-decoration: none;
+.  text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
-} */
+} */ ;
