@@ -1,6 +1,7 @@
 :root {
   /* main font */
-  --main-font: 'Raleway', sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: 'Raleway', sans-serif;
   /* Text color */
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
@@ -10,11 +11,9 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #f5f4fa;
   color: var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
+  font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -24,7 +23,7 @@ body {
 /* lOGO */
 .logo {
   color: #2196f3;
-  font-family: var(--main-font);
+  font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -92,6 +91,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -150,10 +150,57 @@ body {
   line-height: 1.71;
   color: #ffffff;
 }
-.footer-email,
+.footer-mail,
 .footer-contact {
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--accent-color);
+}
+
+/* Portfolio.html */
+/* main portfolio */
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--secondary-text-color);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--secondary-accent-color);
+  color: #ffffff;
+}
+/* main portfolio filter */
+.portfolio-hidden-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.portfolio-projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.portfolio-projects-descr {
+  font-size: 16px;
+  line-height: 1.87;
+}
+/* main portfolio projects */
 
 /* 
 a:hover {
